@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "express": {
+      "source": "ssrjkk/agent-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/backend/express/SKILL.md",
+      "computedHash": "ed5a771ee41eaf3aa695ded825bf504190baec526fbff5c7784831640cbb7535"
+    }
+  }
+}
