@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: tripsplit-service
+    plan: free
+    runtime: docker
+    dockerfilePath: Dockerfile
+    region: oregon
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
+      - key: DATABASE_URL
+        sync: false
+      - key: CLERK_PUBLISHABLE_KEY
+        sync: false
+      - key: CLERK_SECRET_KEY
+        sync: false 
+      - key: CLERK_WEBHOOK_SECRET
+        sync: false
